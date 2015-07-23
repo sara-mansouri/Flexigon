@@ -1,0 +1,425 @@
+<html>
+  <head>
+<!--cross platform-->
+<link rel="stylesheet" href="css/normalize.css">
+<script src="scripts/prefixfree.min.js"></script>
+<!---->
+
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdn.rawgit.com/andrusieczko/clip-path-polygon/master/build/clip-path-polygon.min.js"></script>
+    <script>
+
+$(function() {
+var points3 = [[50, 0], [0, 75], [100, 75]];
+        $('.new').clipPath(points3, {
+          isPercentage: true
+        });
+
+
+
+var pointsm1 = [[50, 0], [0, 75], [50, 50]];
+        $('.m1').clipPath(pointsm1, {
+          isPercentage: true
+        });
+
+
+var pointsm2 = [[50, 0], [100, 75], [50, 50]];
+        $('.m2').clipPath(pointsm2, {
+          isPercentage: true
+        });
+
+var pointsm3 = [[0, 75], [100, 75], [50, 50]];
+        $('.m3').clipPath(pointsm3, {
+          isPercentage: true
+        });
+
+var pointsm4 = [[50, 0], [0, 75], [50, 50]];
+        $('.m4').clipPath(pointsm4, {
+          isPercentage: true
+        });
+
+var pointsm5 = [[50, 0], [100, 75], [50, 50]];
+        $('.m5').clipPath(pointsm5, {
+          isPercentage: true
+        });
+
+var pointsm6 = [[0, 75], [100, 75], [50, 50]];
+        $('.m6').clipPath(pointsm6, {
+          isPercentage: true
+        });
+
+
+
+
+      });
+
+
+
+
+    </script>
+
+
+
+<style>
+
+*{float:left; z-index:0;}
+.one{  background:aqua;
+content:url("https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png") !important;
+background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png) !important;
+background-size: 100% 100% !important;
+}
+.two{  background:bisque;
+content:url("http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png") !important;
+background-image: url(http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png) !important;
+background-size: 100% 100% !important;
+}
+.three{  background:antiquewhite;
+content:url("https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png") !important;
+background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png) !important;
+background-size: 100% 100% !important;
+}
+
+.four{  background:aqua;
+content:url("https://c1.staticflickr.com/9/8893/18416750928_c5495d9eb2_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/9/8893/18416750928_c5495d9eb2_z.jpg) !important;
+background-size: 100% 100% !important;
+}
+.five{  background:bisque;
+content:url("https://c1.staticflickr.com/9/8888/18606632931_1e0b2bb607_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/9/8888/18606632931_1e0b2bb607_z.jpg) !important;
+background-size: 100% 100% !important;
+}
+.six{  background:antiquewhite;
+content:url("https://c1.staticflickr.com/1/260/17983849713_eaabc530dd_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/1/260/17983849713_eaabc530dd_z.jpg) !important;
+background-size: 100% 100% !important;
+}
+
+.template2{  
+  /*top: 1100px !important;*/
+  background-position-y: 101px !important; 
+  height:280px !important;
+  background-size: contain !important;}
+#template1{
+   z-index:2;
+  height: 180px;
+  background-repeat: no-repeat;
+  width: 562px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 300px;
+  left: 70px;
+  background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
+}
+.photo{left:0px; width:100%;}
+.poly{
+  visibility:hidden;
+  width:200px;
+  height:173px;
+  -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+.lozic{
+  position:absolute;left:200px;
+transform:          rotate(-120deg);
+-ms-transform:      rotate(-120deg);
+-moz-transform:     rotate(-120deg);
+-webkit-transform:  rotate(-120deg);
+-o-transform:       rotate(-120deg);
+
+  
+  width:200px;
+  height:173px;
+-webkit-clip-path: polygon(25% 0, 50% 50%, 25% 100%, 0 50%);clip-path: polygon(25% 0, 50% 50%, 25% 100%, 0 50%);
+}
+.lozia{
+  position:absolute;left:400px;
+  
+transform:          rotate(0deg);
+-ms-transform:      rotate(0deg);
+-moz-transform:     rotate(0deg);
+-webkit-transform:  rotate(0deg);
+-o-transform:       rotate(0deg);
+
+  width:200px;
+  height:173px;
+-webkit-clip-path: polygon(100% 50%, 50% 50%, 25% 100%, 75% 100%);clip-path: polygon(100% 50%, 50% 50%, 25% 100%, 75% 100%);
+}
+.lozib{
+  
+  position:absolute;left:600px;
+    
+transform:          rotate(120deg);
+-ms-transform:      rotate(120deg);
+-moz-transform:     rotate(120deg);
+-webkit-transform:  rotate(120deg);
+-o-transform:       rotate(120deg);
+
+  width:200px;
+  height:173px;
+-webkit-clip-path: polygon(100% 50%, 50% 50%, 25% 0, 75% 0);clip-path: polygon(100% 50%, 50% 50%, 25% 0, 75% 0);
+}
+
+#lozi3c{top:-85px;left:2px;}
+#lozi1c{top:-85px;left:104px;}
+#lozi2a{top:-85px;left:206px;}
+#lozi3b{top:-85px;left:308px;}
+
+#lozi1b{top:4px;left:-48px;}
+#lozi2c{top:4px;left:54px;}
+#lozi3a{top:4px;left:156px;}
+#lozi1a{top:4px;left:258px;}
+#lozi2b{top:4px;left:360px;}
+
+
+
+
+.kaj{
+  display:none;
+  height:200px;
+  width:173px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.mosalas{
+  
+  height:200px;
+  width:173px;
+  -webkit-clip-path: polygon(50% 0%, 0 75%, 100% 75%);
+clip-path: polygon(50% 0%, 0 75%, 100% 75%);
+}
+
+.part1{ top:-85px !important; left:450px !important;
+  -webkit-clip-path: polygon(100% 50%, 25% 100%, 75% 100%) !important;
+clip-path: polygon(100% 50%, 25% 100%, 75% 100%)!important;}
+
+.part2{top:-85px !important;
+  left:440px !important;
+  -webkit-clip-path: polygon(100% 50%, 25% 100%, 50% 50%)!important;
+clip-path: polygon(100% 50%, 25% 100%, 50% 50%)!important;}
+.part3{
+  top:-85px !important;
+  left:620px !important;
+  
+  -webkit-clip-path: polygon(100% 50%, 25% 0, 50% 50%) !important;
+clip-path: polygon(100% 50%, 25% 0, 50% 50%) !important;
+}
+.part4{
+  top:-85px !important;
+  left:630px !important;
+  -webkit-clip-path: polygon(100% 50%, 25% 0, 75% 0) !important;
+clip-path: polygon(100% 50%, 25% 0, 75% 0) !important;
+  
+}
+.part5{
+  top:-85px !important;
+  left:230px !important;
+  -webkit-clip-path: polygon(25% 100%, 25% 0, 0 50%) !important;
+clip-path: polygon(25% 100%, 25% 0, 0 50%) !important;
+  
+}
+
+.part6{
+  top:-85px !important;
+  left:220px !important;
+  -webkit-clip-path: polygon(25% 100%, 25% 0, 50% 50%) !important;
+clip-path: polygon(25% 100%, 25% 0, 50% 50%) !important;
+  
+}
+
+
+
+.m1{
+  position:absolute; 
+  left:200px;
+  width:173px;
+  height:200px;
+  
+  -webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
+clip-path: polygon(50% 0%, 0 75%, 50% 50%);
+  
+  
+transform:          rotate(210deg);
+-ms-transform:      rotate(210deg);
+-moz-transform:     rotate(210deg);
+-webkit-transform:  rotate(210deg);
+-o-transform:       rotate(210deg);
+
+}
+
+.m2{
+  position:absolute; 
+  left:400px;
+  width:173px;
+  height:200px;
+  -webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
+clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
+  
+  
+transform:          rotate(90deg);
+-ms-transform:      rotate(90deg);
+-moz-transform:     rotate(90deg);
+-webkit-transform:  rotate(90deg);
+-o-transform:       rotate(90deg);
+
+}
+
+.m3{
+  position:absolute; 
+  left:600px;
+  width:173px;
+  height:200px;
+  -webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
+clip-path: polygon(0 75%, 100% 75%, 50% 50%);
+  
+transform:          rotate(-30deg);
+-ms-transform:      rotate(-30deg);
+-moz-transform:     rotate(-30deg);
+-webkit-transform:  rotate(-30deg);
+-o-transform:       rotate(-30deg);
+
+}
+
+
+.m4{
+  position:absolute; 
+  left:200px;
+  width:173px;
+  height:200px;
+  
+  -webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
+clip-path: polygon(50% 0%, 0 75%, 50% 50%);
+  
+  
+transform:          rotate(30deg);
+-ms-transform:      rotate(30deg);
+-moz-transform:     rotate(30deg);
+-webkit-transform:  rotate(30deg);
+-o-transform:       rotate(30deg);
+
+}
+
+.m5{
+  position:absolute; 
+  left:400px;
+  width:173px;
+  height:200px;
+  -webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
+clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
+  
+  
+transform:          rotate(-90deg);
+-ms-transform:      rotate(-90deg);
+-moz-transform:     rotate(-90deg);
+-webkit-transform:  rotate(-90deg);
+-o-transform:       rotate(-90deg);
+
+}
+
+.m6{
+  position:absolute; 
+  left:600px;
+  width:173px;
+  height:200px;
+  -webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
+clip-path: polygon(0 75%, 100% 75%, 50% 50%);
+  
+transform:          rotate(150deg);
+-ms-transform:      rotate(150deg);
+-moz-transform:     rotate(150deg);
+-webkit-transform:  rotate(150deg);
+-o-transform:       rotate(150deg);
+
+}
+
+
+#l3c{top:3px;left:16px!important;}
+#l1c{top:3px;left:118px!important;}
+#l2a{top:3px;left:219px!important;}
+#l3b{top:3px;left:321px!important;}
+
+#l1b{top:90px;left:-33px!important;}
+#l2c{top:90px;left:67px!important;}
+#l3a{top:90px;left:169px!important;}
+#l1a{top:90px;left:271px!important;}
+#l2b{top:90px;left:373px!important;}
+
+#l6b{top:87px;left:66px!important;}
+#l5b{top:87px;left:168px!important;}
+#l4b{top:87px;left:270px!important;}
+#l6c{top:87px;left:372px!important;}
+
+#l5c{top:177px;left:16px!important;}
+#l4c{top:177px;left:117px!important;}
+#l6a{top:177px;left:219px!important;}
+#l5a{top:177px;left:321px!important;}
+#l4a{top:177px;left:422px!important;}
+
+@-moz-document url-prefix() {
+    .template2{
+        background-position: 0% 98%;
+    }
+}
+
+    </style>
+
+
+  </head>
+  <body>
+
+
+
+
+
+<div class="photo">
+ 
+  <div class="new mosalas one" ></div>
+  <div class="new mosalas two" ></div>
+  <div class="new mosalas three" ></div>
+</div>
+<div class="photo">
+  <div class="new mosalas four" ></div>
+  <div class="new mosalas five" ></div>
+  <div class="new mosalas six" ></div>
+</div>
+
+
+<!--template2 6 photos-->
+
+<div class="photo template2" id="template1">
+  <img  id="l1a" class="m1 one result" ></img>
+  <img  id="l1b" class="m2 one result" ></img>
+  <img  id="l1c" class="m3 one result" ></img>
+
+  <img  id="l2a" class="m1 two result" ></img>
+  <img  id="l2b" class="m2 two result"></img>
+  <img  id="l2c" class="m3 two result"></img>
+
+  <img  id="l3a" class="m1 three result"></img>
+  <img  id="l3b" class="m2 three result"></img>
+  <img  id="l3c" class="m3 three result"></img>
+
+  <img  id="l4a" class="m4 four result" ></img>
+  <img  id="l4b" class="m5 four result" ></img>
+  <img  id="l4c" class="m6 four result" ></img>
+
+  <img  id="l5a" class="m4 five result" ></img>
+  <img  id="l5b" class="m5 five result" ></img>
+  <img  id="l5c" class="m6 five result" ></img>
+
+  <img  id="l6a" class="m4 six result" ></img>
+  <img  id="l6b" class="m5 six result" ></img>
+  <img  id="l6c" class="m6 six result" ></img>
+
+</div>
+
+
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
+</div>
+
+  </body>
+</html>
+
