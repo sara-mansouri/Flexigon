@@ -62,30 +62,36 @@ var pointsm6 = [[0, 75], [100, 75], [50, 50]];
 
 <style>
 
-*{/*float:left; z-index:0;*/}
+*{float:left; z-index:0;}
 .one{  background:aqua;
+content:url("https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png") !important;
 background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png) !important;
 background-size: 100% 100% !important;
 }
 .two{  background:bisque;
+content:url("http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png") !important;
 background-image: url(http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png) !important;
 background-size: 100% 100% !important;
 }
 .three{  background:antiquewhite;
+content:url("https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png") !important;
 background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png) !important;
 background-size: 100% 100% !important;
 }
 
 .four{  background:aqua;
-background-image: url(https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg) !important;
+content:url("https://c1.staticflickr.com/9/8893/18416750928_c5495d9eb2_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/9/8893/18416750928_c5495d9eb2_z.jpg) !important;
 background-size: 100% 100% !important;
 }
 .five{  background:bisque;
-background-image: url(https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg) !important;
+content:url("https://c1.staticflickr.com/9/8888/18606632931_1e0b2bb607_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/9/8888/18606632931_1e0b2bb607_z.jpg) !important;
 background-size: 100% 100% !important;
 }
 .six{  background:antiquewhite;
-background-image: url(https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg) !important;
+content:url("https://c1.staticflickr.com/1/260/17983849713_eaabc530dd_z.jpg") !important;
+background-image: url(https://c1.staticflickr.com/1/260/17983849713_eaabc530dd_z.jpg) !important;
 background-size: 100% 100% !important;
 }
 
@@ -101,11 +107,11 @@ background-size: 100% 100% !important;
   width: 562px;
   background-size: 100% 100%;
   position: absolute;
-    top: 700px;
-  
+  top: 300px;
+  left: 70px;
   background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
 }
-.photo{ width:100%;}
+.photo{left:0px; width:100%;}
 .poly{
   visibility:hidden;
   width:200px;
@@ -176,11 +182,9 @@ transform:          rotate(120deg);
 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .mosalas{
-  float:left;
-  /*height:200px;*/
-  padding-bottom: 30%;
-height: 0px;
-  width:30%;
+  
+  height:200px;
+  width:173px;
   -webkit-clip-path: polygon(50% 0%, 0 75%, 100% 75%);
 clip-path: polygon(50% 0%, 0 75%, 100% 75%);
 }
@@ -367,68 +371,18 @@ transform:          rotate(150deg);
 
 
 
-<img style="position: absolute;
-  z-index: -1;
-  padding: 0;
-  min-height: 700px;
-  min-width: 950px;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  "src="shapes.jpg">
-<p>test</p>
- 
- 
-
-
-<div style="
-  background: #fff;
-  width: 30%;
-  min-width: 15em;
-  margin: 1em auto;
-  padding: 2rem;
-  height: 1000px;" 
-  
-  class="goggles-main-box goggles-box">
-        <h1 class="ng-binding">Remix this Flexigon with your own photos to have an amazing toy project!</h1>
-        <ol class="goggles-listing">
-           <li><p>
-            <a href="https://webmaker.org/en-US/goggles">
-            <button style="  border: none;
-  background: #ffcd36;
-  border-radius: 1em;
-  padding: 0.4em 1em;
-  margin-top: -1rem;
-}"  class="goggles-activate-button"><span class="ng-binding">Activate X-ray Goggles</span></button>
-             </a>
-            </p></li>
-          <li><p class="ng-binding">Click on each image</p></li>
-          <li><p class="ng-binding">Change each image’s source to your photo url(You can upload them on Flickr and copy the URL)
-              
-              </p><p class="goggles-help-toggled hidden ng-binding">In HTML, the &lt;img&gt; tag identifies an image with src="file_name".</p>
-              <p class="goggles-help-toggled hidden ng-binding">Change &lt;img src="/shapes.jpg"&gt; to &lt;img src="Copy your photo URL"&gt;</p>
-         </li>
-        
-		</ol>
-		
-		
-		
-		
-
-
 <div class="photo">
  
-  <img class="new mosalas one" >
-  <img class="new mosalas two" >
-  <img class="new mosalas three" >
+  <div class="new mosalas one" ></div>
+  <div class="new mosalas two" ></div>
+  <div class="new mosalas three" ></div>
 </div>
 <div class="photo">
-  <img class="new mosalas four" >
-  <img class="new mosalas five" >
-  <img class="new mosalas six" >
+  <div class="new mosalas four" ></div>
+  <div class="new mosalas five" ></div>
+  <div class="new mosalas six" ></div>
 </div>
 
-<p class="ng-binding" style="display:inline-block;">Your pattern is ready to go! Now Cut the following pattern out </p>
 
 <!--template2 6 photos-->
 
@@ -458,19 +412,14 @@ transform:          rotate(150deg);
   <img  id="l6c" class="m6 six result" ></img>
 
 </div>
-<p style="display:inline-block;position:relative; top:200px" class="ng-binding">Your pattern is ready to go! Now Cut the following pattern out </p>
 
+
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
+<div class="photo"><img class="poly" /></div>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    
   </body>
 </html>
 
