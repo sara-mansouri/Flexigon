@@ -61,7 +61,7 @@ var pointsm6 = [[0, 75], [100, 75], [50, 50]];
 
 
 <style>
-
+body{background-image: url(shapes.jpg);  }
 *{/*float:left; z-index:0;*/}
 
 #mos1{background:aqua;}
@@ -396,6 +396,8 @@ transform:          rotate(150deg);
           document.getElementById("l6b").src=img6;
           document.getElementById("l6c").src=img6;
 
+          document.getElementById("ready").style.visibility="visible";
+
           return true;
       }
       -->
@@ -463,9 +465,9 @@ transform:          rotate(150deg);
   <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="mos6" class="new mosalas" />
 </div>
     </div>
-
-    <button style=" z-index: 6; position: absolute;  top: 760px;float: left" onclick="makePattern()">Make My Flexigon Pattern!</button>
-    <p  style=" z-index: 6; position: absolute;  top: 775px;" class="ng-binding" style="display:inline-block;">Your pattern is ready to go! Now Cut the following pattern out </p>
+    <p  style=" z-index: 6; position: absolute;  top: 750px;" class="ng-binding" style="display:inline-block;">After changing pictures press Esc on keyboard </p>
+    <button style=" z-index: 6; position: absolute;  top: 785px;float: left" onclick="makePattern()">Make My Flexigon Pattern!</button>
+    <p id="ready" style=" z-index: 6; position: absolute;  top: 790px; visibility: hidden" class="ng-binding" style="display:inline-block;">Your pattern is ready to go! Now Cut the following pattern out! </p>
 
 <!--template2 6 photos-->
 
@@ -495,8 +497,75 @@ transform:          rotate(150deg);
   <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="l6c" class="m6  result" />
 
 </div>
-
 </div>
+
+  <img style="position: absolute;
+  z-index: -1;
+  padding: 0;
+  min-height: 700px;
+  min-width: 950px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  " src="shapes.jpg">
+
+  <div style="
+  background: #fff;
+  width: 30%;
+  min-width: 15em;
+  margin: 1em auto;
+  min-width: 600px;
+  padding: 2rem;
+  height: 2300px;"
+
+
+       class="goggles-main-box goggles-box">
+      <h1 class="ng-binding">Next Step</h1>
+      <ol class="goggles-listing">
+          <p>Description source: http://britton.disted.camosun.bc.ca/trihexaflexagon/flexagon.html</p>
+          <li>
+        <p>Crease along all the diagonals and along
+            the centre.</p>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex2.jpg" VSPACE=10 height=244 width=320>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex3.jpg" VSPACE=10 height=223 width=320>
+              </li>
+          <li>
+        <p>Turn the template over to the non coloured
+            side. Add glue along the small side and fold in half along the centre line.</p>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex4.jpg" VSPACE=10 height=239 width=320>
+
+          </li>
+          <li>
+
+        <p>Fold the left side under to create a mountain
+            fold between the blue and red triangles.</p>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex5.jpg" VSPACE=10 height=222 width=320>
+
+          </li>
+          <li>
+
+        <p>Fold under again between the blue and red
+            triangles. This creates another mountain fold. Let the single layer flap
+            sit on top of the existing paper.</p>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex6.jpg" VSPACE=10 height=267 width=350>
+
+          </li>
+          <li>
+
+        <p>Now glue the two single layer flaps together
+            to enclose all the uncoloured paper.</p>
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex7.jpg" VSPACE=10 height=241 width=320>
+
+          </li>
+          <li>
+
+        <p>< face="Arial,Helvetica">Congratulations! You've just made a trihexaflexagon.</p>
+
+            <img SRC="http://britton.disted.camosun.bc.ca/trihexaflexagon/flex8.jpg" VSPACE=10 height=249 width=262>
+
+          </li>
+  </div>
+
 
 
   </body>
