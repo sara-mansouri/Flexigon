@@ -63,14 +63,31 @@ var pointsm6 = [[0, 75], [100, 75], [50, 50]];
 <style>
 
 *{/*float:left; z-index:0;*/}
+.one{  background:aqua;
+background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png) !important;
+background-size: 100% 100% !important;
+}
+.two{  background:bisque;
+background-image: url(http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png) !important;
+background-size: 100% 100% !important;
+}
+.three{  background:antiquewhite;
+background-image: url(https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png) !important;
+background-size: 100% 100% !important;
+}
 
-#mos1{background:aqua;}
-#mos2{background:bisque;}
-#mos3{  background:antiquewhite;}
-#mos4{background:aqua;}
-#mos5{background:bisque;}
-#mos6{  background:antiquewhite;}
-
+.four{  background:aqua;
+background-image: url(https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg) !important;
+background-size: 100% 100% !important;
+}
+.five{  background:bisque;
+background-image: url(https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg) !important;
+background-size: 100% 100% !important;
+}
+.six{  background:antiquewhite;
+background-image: url(https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg) !important;
+background-size: 100% 100% !important;
+}
 
 .template2{  
   /*top: 1100px !important;*/
@@ -84,7 +101,7 @@ var pointsm6 = [[0, 75], [100, 75], [50, 50]];
   width: 562px;
   background-size: 100% 100%;
   position: absolute;
-    top: 730px;
+    top: 700px;
   
   background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
 }
@@ -159,11 +176,13 @@ transform:          rotate(120deg);
 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .mosalas{
-    float:left;
-    height: 180px;
-    width: 180px;
-    background-size: 100% 100% !important;
-
+  float:left;
+  /*height:200px;*/
+  padding-bottom: 30%;
+height: 0px;
+  width:30%;
+  -webkit-clip-path: polygon(50% 0%, 0 75%, 100% 75%);
+clip-path: polygon(50% 0%, 0 75%, 100% 75%);
 }
 
 .part1{ top:-85px !important; left:450px !important;
@@ -345,61 +364,7 @@ transform:          rotate(150deg);
   <body>
 
 
-  <!--script language="JavaScript" type="text/javascript">
 
-
-      function makePattern()
-      {    var img1;
-          img1=document.getElementById("mos1").src;
-          document.getElementById("l1a").src=img1;
-        return true;
-      }
-
-  </scrip-->
-  <script language="JavaScript" type="text/javascript">
-      <!--hideIt;
-
-      function makePattern()
-      {    var img1;
-          img1=document.getElementById("mos1").src;
-          document.getElementById("l1a").src=img1;
-          document.getElementById("l1b").src=img1;
-          document.getElementById("l1c").src=img1;
-
-          var img2;
-          img2=document.getElementById("mos2").src;
-          document.getElementById("l2a").src=img2;
-          document.getElementById("l2b").src=img2;
-          document.getElementById("l2c").src=img2;
-
-          var img3;
-          img3=document.getElementById("mos3").src;
-          document.getElementById("l3a").src=img3;
-          document.getElementById("l3b").src=img3;
-          document.getElementById("l3c").src=img3;
-
-          var img4;
-          img4=document.getElementById("mos4").src;
-          document.getElementById("l4a").src=img4;
-          document.getElementById("l4b").src=img4;
-          document.getElementById("l4c").src=img4;
-
-          var img5;
-          img5=document.getElementById("mos5").src;
-          document.getElementById("l5a").src=img5;
-          document.getElementById("l5b").src=img5;
-          document.getElementById("l5c").src=img5;
-
-          var img6;
-          img6=document.getElementById("mos6").src;
-          document.getElementById("l6a").src=img6;
-          document.getElementById("l6b").src=img6;
-          document.getElementById("l6c").src=img6;
-
-          return true;
-      }
-      -->
-  </script>
 
 
 <img style="position: absolute;
@@ -421,10 +386,8 @@ transform:          rotate(150deg);
   width: 30%;
   min-width: 15em;
   margin: 1em auto;
-  min-width: 600px;
   padding: 2rem;
-  height: 1000px;"
-
+  height: 1000px;" 
   
   class="goggles-main-box goggles-box">
         <h1 class="ng-binding">Remix this Flexigon with your own photos to have an amazing toy project!</h1>
@@ -447,58 +410,67 @@ transform:          rotate(150deg);
          </li>
         
 		</ol>
+		
+		
+		
+		
 
 
-
-
-    <div style="height:600px;" >
-<div class="photo" >
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png" id="mos1"  class="new mosalas "/>
-  <img src="http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png" id="mos2" class="new mosalas " />
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png" id="mos3" class="new mosalas " />
+<div class="photo">
+ 
+  <img class="new mosalas one" >
+  <img class="new mosalas two" >
+  <img class="new mosalas three" >
 </div>
 <div class="photo">
-  <img src="https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg" id="mos4" class="new mosalas " />
-  <img src="https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg" id="mos5" class="new mosalas " />
-  <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="mos6" class="new mosalas" />
+  <img class="new mosalas four" >
+  <img class="new mosalas five" >
+  <img class="new mosalas six" >
 </div>
-    </div>
 
-    <button style=" z-index: 6; position: absolute;  top: 760px;float: left" onclick="makePattern()">Make My Flexigon Pattern!</button>
-    <p  style=" z-index: 6; position: absolute;  top: 775px;" class="ng-binding" style="display:inline-block;">Your pattern is ready to go! Now Cut the following pattern out </p>
+<p class="ng-binding" style="display:inline-block;">Your pattern is ready to go! Now Cut the following pattern out </p>
 
 <!--template2 6 photos-->
 
 <div class="photo template2" id="template1">
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png" id="l1a" class="m1  result"/>
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png" id="l1b" class="m2  result" />
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-01.png" id="l1c" class="m3  result" />
+  <img  id="l1a" class="m1 one result" ></img>
+  <img  id="l1b" class="m2 one result" ></img>
+  <img  id="l1c" class="m3 one result" ></img>
 
-  <img src="http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png" id="l2a" class="m1  result" />
-  <img src="http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png" id="l2b" class="m2  result"/>
-  <img src="http://www2.psd100.com/ppp/2013/10/0501/mozilla-firefox-icon-1005140117.png" id="l2c" class="m3  result"/>
+  <img  id="l2a" class="m1 two result" ></img>
+  <img  id="l2b" class="m2 two result"></img>
+  <img  id="l2c" class="m3 two result"></img>
 
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png" id="l3a" class="m1  result"/>
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png" id="l3b" class="m2  result"/>
-  <img src="https://teach.mozilla.org/img/pages/event-resources/resource-thumbnails-03@2x.png" id="l3c" class="m3  result"/>
+  <img  id="l3a" class="m1 three result"></img>
+  <img  id="l3b" class="m2 three result"></img>
+  <img  id="l3c" class="m3 three result"></img>
 
-  <img src="https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg" id="l4a" class="m4  result" />
-  <img src="https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg" id="l4b" class="m5  result" />
-  <img src="https://farm1.staticflickr.com/474/19744243440_6a3927de37_z.jpg" id="l4c" class="m6  result" />
+  <img  id="l4a" class="m4 four result" ></img>
+  <img  id="l4b" class="m5 four result" ></img>
+  <img  id="l4c" class="m6 four result" ></img>
 
-  <img src="https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg" id="l5a" class="m4  result" />
-  <img src="https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg" id="l5b" class="m5  result" />
-  <img src="https://farm1.staticflickr.com/437/19744225478_8cb900cc10_z.jpg" id="l5c" class="m6  result" />
+  <img  id="l5a" class="m4 five result" ></img>
+  <img  id="l5b" class="m5 five result" ></img>
+  <img  id="l5c" class="m6 five result" ></img>
 
-  <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="l6a" class="m4  result" />
-  <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="l6b" class="m5  result" />
-  <img src="https://farm1.staticflickr.com/427/19745590169_7093a2671f_z.jpg" id="l6c" class="m6  result" />
+  <img  id="l6a" class="m4 six result" ></img>
+  <img  id="l6b" class="m5 six result" ></img>
+  <img  id="l6c" class="m6 six result" ></img>
+
+</div>
+<p style="display:inline-block;position:relative; top:200px" class="ng-binding">Your pattern is ready to go! Now Cut the following pattern out </p>
 
 </div>
 
-</div>
 
 
+
+
+
+
+
+      </div>
+    
   </body>
 </html>
 
