@@ -1,4 +1,6 @@
 # Flexigon
+We are making Flexigon patterns using our own photos. Flexigons are fun paper toys or according to Wikipedia "They are flat models, constructed by folding strips of paper, that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front." If you like geometry, html, and paper crafts(!) you will love it!
+
 **How did it start+live demo:**
 --------------
 I started flexigon project when we held a maker party in Northern Saskatchewan: https://events.webmaker.org/events/7010
