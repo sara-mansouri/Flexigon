@@ -1,31 +1,28 @@
 @charset "utf-8";
 
-/* CSS Document */
+/* CSS Document for making hexaflexagon with Six Photo*/ 
 
-
-	  
-
-#mos1 {
+#triangle1 {
 	background: aqua;
 }
 
-#mos2 {
+#triangle2 {
 	background: bisque;
 }
 
-#mos3 {
+#triangle3 {
 	background: antiquewhite;
 }
 
-#mos4 {
+#triangle4 {
 	background: aqua;
 }
 
-#mos5 {
+#triangle5 {
 	background: bisque;
 }
 
-#mos6 {
+#triangle6 {
 	background: antiquewhite;
 }
 
@@ -51,70 +48,11 @@
 	width: 100%;
 }
 
-.poly {
-	visibility: hidden;
-	width: 200px;
-	height: 173px;
-	-webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-	clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-}
-
-
-.kaj {
-	display: none;
-	height: 200px;
-	width: 173px;
-	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
-
-.mosalas {
+.triangle {
 	float: left;
 	height: 180px;
 	width: 180px;
 	background-size: 100% 100% !important;
-}
-
-.part1 {
-	top: -85px !important;
-	left: 450px !important;
-	-webkit-clip-path: polygon(100% 50%, 25% 100%, 75% 100%) !important;
-	clip-path: polygon(100% 50%, 25% 100%, 75% 100%)!important;
-}
-
-.part2 {
-	top: -85px !important;
-	left: 440px !important;
-	-webkit-clip-path: polygon(100% 50%, 25% 100%, 50% 50%)!important;
-	clip-path: polygon(100% 50%, 25% 100%, 50% 50%)!important;
-}
-
-.part3 {
-	top: -85px !important;
-	left: 620px !important;
-	-webkit-clip-path: polygon(100% 50%, 25% 0, 50% 50%) !important;
-	clip-path: polygon(100% 50%, 25% 0, 50% 50%) !important;
-}
-
-.part4 {
-	top: -85px !important;
-	left: 630px !important;
-	-webkit-clip-path: polygon(100% 50%, 25% 0, 75% 0) !important;
-	clip-path: polygon(100% 50%, 25% 0, 75% 0) !important;
-}
-
-.part5 {
-	top: -85px !important;
-	left: 230px !important;
-	-webkit-clip-path: polygon(25% 100%, 25% 0, 0 50%) !important;
-	clip-path: polygon(25% 100%, 25% 0, 0 50%) !important;
-}
-
-.part6 {
-	top: -85px !important;
-	left: 220px !important;
-	-webkit-clip-path: polygon(25% 100%, 25% 0, 50% 50%) !important;
-	clip-path: polygon(25% 100%, 25% 0, 50% 50%) !important;
 }
 
 .m1 {

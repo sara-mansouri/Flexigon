@@ -1,14 +1,9 @@
 @charset "utf-8";
 
-/* CSS Document */
-
-
+/* CSS Document for the worksheet structure*/
 
 body {
 	background-image: url(../shapes.jpg);
-}
-
-* {/*float:left; z-index:0;*/
 }
 
 .pageTitle {
