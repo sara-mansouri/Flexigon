@@ -1,6 +1,11 @@
 @charset "utf-8";
 
 /* CSS Document for making hexaflexagon with Six Photo*/ 
+/* CSS Document for the worksheet structure*/
+/* Augost 2015*/
+/* Author: Sara Mansouri*/
+/* http://Mansouri.ca*/
+
 
 #triangle1 {
 	background: aqua;
@@ -40,7 +45,7 @@
 	width: 562px;
 	background-size: 100% 100%;
 	position: absolute;
-	margin-top: -80px;
+	margin-top: -60px;
 	background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
 }
 
