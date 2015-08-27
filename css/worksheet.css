@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body {
+	background-image: url(shapes.jpg);
+}
+
+* {/*float:left; z-index:0;*/
+}
+
+.pageTitle {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	font-family: sans-serif !important;
+}
+
+.pageTitle p {
+	margin: 1em 0;
+}
+
+.content {
+	background: #fff;
+	width: 30%;
+	min-width: 15em;
+	margin: 1em auto;
+	min-width: 600px;
+	padding: 2rem;
+	padding-bottom: 300;
+}
+
+.activate {
+	border: none;
+	background: #ffcd36;
+	border-radius: 1em;
+	padding: 0.4em 1em;
+	margin-top: -1rem;
+}
+
+.afterImageInstruction {
+	z-index: 6;
+	display: inline-block;
+}
+
+.runPattern {
+	z-index: 6;
+	display: block;
+}
+
+.readyPattern {
+	z-index: 6;
+ visibility: hidden  display:inline-block;
+}
+
+.foldingInstruction {
+	top: 250px;
+	position: relative;
+}
+
+.foldingInstruction img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.imageBox {
+	max-height: 400px;
+	overflow: hidden;
+}
