@@ -6,6 +6,16 @@
 /* Author: Sara Mansouri */
 /* http://Mansouri.ca */
 
+.photo {
+	width: 100%;
+}
+/*** triangles (user can change their images) ***/
+.triangle {
+	float: left;
+	height: 180px;
+	width: 180px;
+	background-size: 100% 100% !important;
+}
 
 #triangle1 {
 	background: aqua;
@@ -31,40 +41,26 @@
 	background: antiquewhite;
 }
 
-.template2 {
-	/*top: 1100px !important;*/
-	background-position-y: 101px !important;
-	height: 280px !important;
-	background-size: contain !important;
-}
-
+/*** Flexigon pattern (template) ***/
 #template1 {
-	z-index: 2;
-	height: 180px;
+	z-index: 2;	
+	height: 280px;
+	background-size: contain;
+	background-position-y: 101px;
 	background-repeat: no-repeat;
 	width: 562px;
-	background-size: 100% 100%;
 	position: absolute;
 	margin-top: -60px;
 	background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
 }
 
-.photo {
-	width: 100%;
-}
-
-.triangle {
-	float: left;
-	height: 180px;
-	width: 180px;
-	background-size: 100% 100% !important;
+.part{
+	position: absolute;
+	width: 173px;
+	height: 200px;	
 }
 
 .m1 {
-	position: absolute;
-	left: 200px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	transform: rotate(210deg);
@@ -75,10 +71,6 @@
 }
 
 .m2 {
-	position: absolute;
-	left: 400px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	transform: rotate(90deg);
@@ -89,10 +81,6 @@
 }
 
 .m3 {
-	position: absolute;
-	left: 600px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	transform: rotate(-30deg);
@@ -103,10 +91,6 @@
 }
 
 .m4 {
-	position: absolute;
-	left: 200px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	transform: rotate(30deg);
@@ -117,10 +101,6 @@
 }
 
 .m5 {
-	position: absolute;
-	left: 400px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	transform: rotate(-90deg);
@@ -131,10 +111,6 @@
 }
 
 .m6 {
-	position: absolute;
-	left: 600px;
-	width: 173px;
-	height: 200px;
 	-webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	transform: rotate(150deg);
@@ -146,93 +122,95 @@
 
 #l3c {
 	top: 3px;
-	left: 16px!important;
+	left: 16px;
 }
 
 #l1c {
 	top: 3px;
-	left: 118px!important;
+	left: 118px;
 }
 
 #l2a {
 	top: 3px;
-	left: 219px!important;
+	left: 219px;
 }
 
 #l3b {
 	top: 3px;
-	left: 321px!important;
+	left: 321px;
 }
 
 #l1b {
 	top: 90px;
-	left: -33px!important;
+	left: -33px;
 }
 
 #l2c {
 	top: 90px;
-	left: 67px!important;
+	left: 67px;
 }
 
 #l3a {
 	top: 90px;
-	left: 169px!important;
+	left: 169px;
 }
 
 #l1a {
 	top: 90px;
-	left: 271px!important;
+	left: 271px;
 }
 
 #l2b {
 	top: 90px;
-	left: 373px!important;
+	left: 373px;
 }
 
 #l6b {
 	top: 87px;
-	left: 66px!important;
+	left: 66px;
 }
 
 #l5b {
 	top: 87px;
-	left: 168px!important;
+	left: 168px;
 }
 
 #l4b {
 	top: 87px;
-	left: 270px!important;
+	left: 270px;
 }
 
 #l6c {
 	top: 87px;
-	left: 372px!important;
+	left: 372px;
 }
 
 #l5c {
 	top: 177px;
-	left: 16px!important;
+	left: 16px;
 }
 
 #l4c {
 	top: 177px;
-	left: 117px!important;
+	left: 117px;
 }
 
 #l6a {
 	top: 177px;
-	left: 219px!important;
+	left: 219px;
 }
 
 #l5a {
 	top: 177px;
-	left: 321px!important;
+	left: 321px;
 }
 
 #l4a {
 	top: 177px;
-	left: 422px!important;
+	left: 422px;
 }
+
+/*when an image is croped by polygons Chrome will calculate it acourding to the initial sizes of the main photos but Firefox will consider the new edges so we need another background-position for Firefox*/
  @-moz-document url-prefix() {
  .template2 {
  background-position: 0% 98%;
