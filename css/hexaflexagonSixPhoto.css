@@ -45,12 +45,12 @@
 #template1 {
 	z-index: 2;	
 	height: 280px;
-	background-size: contain;
-	background-position-y: 101px;
-	background-repeat: no-repeat;
 	width: 562px;
 	position: absolute;
 	margin-top: -60px;
+	background-size: contain;
+	background-position-y: 101px;
+	background-repeat: no-repeat;
 	background-image: url(https://c1.staticflickr.com/9/8860/18604492365_d8d169ec16_z.jpg);
 }
 
@@ -63,61 +63,61 @@
 .m1 {
 	-webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 0 75%, 50% 50%);
-	transform: rotate(210deg);
-	-ms-transform: rotate(210deg);
-	-moz-transform: rotate(210deg);
+			transform: rotate(210deg);
+		-ms-transform: rotate(210deg);
+	   -moz-transform: rotate(210deg);
 	-webkit-transform: rotate(210deg);
-	-o-transform: rotate(210deg);
+		 -o-transform: rotate(210deg);
 }
 
 .m2 {
 	-webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
-	transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
+			transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+	   -moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
+		 -o-transform: rotate(90deg);
 }
 
 .m3 {
 	-webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	clip-path: polygon(0 75%, 100% 75%, 50% 50%);
-	transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg);
-	-moz-transform: rotate(-30deg);
+			transform: rotate(-30deg);
+		-ms-transform: rotate(-30deg);
+	   -moz-transform: rotate(-30deg);
 	-webkit-transform: rotate(-30deg);
-	-o-transform: rotate(-30deg);
+		 -o-transform: rotate(-30deg);
 }
 
 .m4 {
 	-webkit-clip-path: polygon(50% 0%, 0 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 0 75%, 50% 50%);
-	transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-moz-transform: rotate(30deg);
+			transform: rotate(30deg);
+		-ms-transform: rotate(30deg);
+	   -moz-transform: rotate(30deg);
 	-webkit-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
+		 -o-transform: rotate(30deg);
 }
 
 .m5 {
 	-webkit-clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
 	clip-path: polygon(50% 0%, 100% 75%, 50% 50%);
-	transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+	   -moz-transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
+		 -o-transform: rotate(-90deg);
 }
 
 .m6 {
 	-webkit-clip-path: polygon(0 75%, 100% 75%, 50% 50%);
 	clip-path: polygon(0 75%, 100% 75%, 50% 50%);
-	transform: rotate(150deg);
-	-ms-transform: rotate(150deg);
-	-moz-transform: rotate(150deg);
+			transform: rotate(150deg);
+		-ms-transform: rotate(150deg);
+	   -moz-transform: rotate(150deg);
 	-webkit-transform: rotate(150deg);
-	-o-transform: rotate(150deg);
+		 -o-transform: rotate(150deg);
 }
 
 #l3c {
