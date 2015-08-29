@@ -56,7 +56,7 @@ body {
 
 .readyPattern {
 	z-index: 6;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	display:inline-block;
 }
 
