@@ -5,7 +5,7 @@ We are making flexagon patterns using our own photos. Flexagons are fun paper to
 --------------
 I started flexagon project when we held a maker party in Northern Saskatchewan: https://events.webmaker.org/events/7010
 
-Then I decided to prepare a worksheet for it to guide them step by step. We use Mozilla x-ray goggles to let the student replace the images in flexagon pattern with their personal photos. Worksheet: http://smansoury.github.io/Flexigon/
+Then I decided to prepare a worksheet for it to guide them step by step. We use Mozilla x-ray goggles to let the student replace the images in flexagon pattern with their personal photos. Worksheet: http://sara-mansouri.github.io/Flexigon/
 
 **About flexagons:**
 --------------
