@@ -119,7 +119,7 @@
 	-webkit-transform: rotate(150deg);
 		 -o-transform: rotate(150deg);
 }
-
+/*
 #l3c {
 	top: 3px;
 	left: 16px;
@@ -209,6 +209,30 @@
 	top: 177px;
 	left: 422px;
 }
+*/
+
+
+#l3b{top:3px;left:16px!important;}
+#l1b{top:3px;left:118px!important;}
+#l2a{top:3px;left:219px!important;}
+#l3c{top:3px;left:321px!important;}
+
+#l1c{top:90px;left:-33px!important;}
+#l2b{top:90px;left:67px!important;}
+#l3a{top:90px;left:169px!important;}
+#l1a{top:90px;left:271px!important;}
+#l2c{top:90px;left:373px!important;}
+
+#l6c{top:89px;left:66px!important;}
+#l5c{top:89px;left:168px!important;}
+#l4c{top:89px;left:270px!important;}
+#l6b{top:89px;left:372px!important;}
+
+#l5b{top:177px;left:16px!important;}
+#l4b{top:177px;left:117px!important;}
+#l6a{top:177px;left:219px!important;}
+#l5a{top:177px;left:321px!important;}
+#l4a{top:177px;left:422px!important;}
 
 /*when an image is croped by polygons Chrome will calculate it acourding to the initial sizes of the main photos but Firefox will consider the new edges so we need another background-position for Firefox*/
  @-moz-document url-prefix() {
