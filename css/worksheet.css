@@ -77,7 +77,7 @@ body {
 }
 
 @media print {
-    body{
+.pageTitle, .goggles-listing, .imageBox, ul, .foldingInstruction{
 	display:none;
     }
     
