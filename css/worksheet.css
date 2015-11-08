@@ -75,3 +75,13 @@ body {
 	max-height: 400px;
 	overflow: hidden;
 }
+
+@media print {
+    body{
+	display:none;
+    }
+    
+    #template1{
+	display:block;
+    }
+}
