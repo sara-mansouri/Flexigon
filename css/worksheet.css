@@ -81,7 +81,7 @@ body {
 	display:none;
     }
     
-    #template1{
-	display:block;
+    .photo.template2{
+	display:block !important;
     }
 }
