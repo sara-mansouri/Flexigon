@@ -75,3 +75,13 @@ body {
 	max-height: 400px;
 	overflow: hidden;
 }
+
+@media print {
+.pageTitle, .goggles-listing, .imageBox, ul, .foldingInstruction{
+	display:none;
+    }
+    
+    .photo.template2{
+	display:block !important;
+    }
+}
